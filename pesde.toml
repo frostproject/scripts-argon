@@ -1,15 +1,27 @@
-name = "frostproject/roblox_library_template"
-description = "A template for Roblox developers to integrate advanced CLI tools like Argon or Rojo into GitHub workflows, streamlining build, test, and deploy processes for libraries and packages."
-version = "0.0.5"
-authors = ["iceeburr <iceeburr@gmail.com> (https://iceeburr.dev)"]
-repository = "https://github.com/frostproject/roblox-library-template"
+name = "frostproject/scripts_argon"
+description = "Scripts for Argon-based Roblox projects."
+version = "0.0.0"
+authors = [
+    "iceeburr <iceeburr@gmail.com> (https://iceeburr.dev)",
+    "daimond113 <contact@daimond113.com> (https://www.daimond113.com/)",
+    "Erica Marigold <hi@devcomp.xyz>",
+]
+repository = "https://github.com/frostproject/scripts-argon"
 license = "MIT"
 includes = ["README.md", "pesde.toml", "src/**/*.luau", "LICENSE"]
 
 [target]
-environment = "roblox"
-lib = "src/main.luau"
-build_files = ["src"]
+environment = "lune"
+
+[target.scripts]
+roblox_sync_config_generator = "src/roblox_sync_config_generator.luau"
+sourcemap_generator = "src/sourcemap_generator.luau"
 
 [indices]
 default = "https://github.com/pesde-pkg/index"
+
+[dependencies]
+scripts_core = { name = "pesde/scripts_core", version = "^0.0.3", target = "lune" }
+
+[peer_dependencies]
+argon = { name = "pesde/argon", version = "^2.0.25" }

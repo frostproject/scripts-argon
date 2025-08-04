@@ -100,10 +100,5 @@ jobs:
       - name: Authenticate With Pesde
         run: pesde auth login -t "${{ secrets.PESDE_TOKEN }}"
 
-      - name: Publish Roblox Target
+      - name: Publish Lune Target
         run: pesde publish -y
-
-      - name: Publish Luau Target
-        run: |
-          sed -i 's/^environment = "roblox"/environment = "luau"/' pesde.toml
-          pesde publish -y
