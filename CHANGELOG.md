@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.3] - 2025-08-04
+
 ## [0.0.2] - 2025-08-04
 
 ## [0.0.1] - 2025-08-04
@@ -15,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Project was created
 
-[unreleased]: https://github.com/frostproject/scripts-argon/compare/0.0.2...HEAD
+[unreleased]: https://github.com/frostproject/scripts-argon/compare/0.0.3...HEAD
+[0.0.3]: https://github.com/frostproject/scripts-argon/compare/0.0.2...0.0.3
 [0.0.2]: https://github.com/frostproject/scripts-argon/compare/0.0.1...0.0.2
 [0.0.1]: https://github.com/frostproject/scripts-argon/compare/53519e976c62c85126adfcbcf374aa95f2fdb0a0...0.0.1
