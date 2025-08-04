@@ -7,9 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixes
+
+- Downgrade `lune` version to 0.8.9 to fix `pesde install` error
+
 ## [0.0.3] - 2025-08-04
 
+### Fixes
+
+- Another typo in `README.md`
+
 ## [0.0.2] - 2025-08-04
+
+### Fixes
+
+- Typo in `README.md`
 
 ## [0.0.1] - 2025-08-04
 
