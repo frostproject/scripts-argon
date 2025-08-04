@@ -16,7 +16,7 @@ This experimental package adds support for the [Argon](https://argon.wiki/) tool
 ### 1. Add the scripts to your project:
 
 ```sh
-pesde add frostproject/scripts_argon
+pesde add frostproject/scripts_argon -d -t lune
 pesde install
 ```
 
@@ -24,8 +24,8 @@ pesde install
 
 ```toml
 [scripts]
-roblox_sync_config_generator = ".pesde/scripts/roblox_sync_config_generator.luau"
-sourcemap_generator = ".pesde/scripts/sourcemap_generator.luau"
+roblox_sync_config_generator = ".pesde/scripts_argon/roblox_sync_config_generator.luau"
+sourcemap_generator = ".pesde/scripts_argon/sourcemap_generator.luau"
 ```
 
 ### 🧪 For Development and Contribution
