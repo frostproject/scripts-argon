@@ -7,6 +7,6 @@
   "typeErrors": true,
   "globals": [],
   "aliases": {
-    "lune": "~/.lune/.typedefs/0.10.1/"
+    "lune": "~/.lune/.typedefs/0.8.9/"
   }
 }
