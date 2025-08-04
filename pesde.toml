@@ -25,7 +25,10 @@ sourcemap_generator = "src/sourcemap_generator.luau"
 default = "https://github.com/pesde-pkg/index"
 
 [dependencies]
-scripts_core = { name = "pesde/scripts_core", version = "^0.0.3", target = "lune" }
+scripts_core = { name = "pesde/scripts_core", version = "0.0.3", target = "lune" }
 
 [peer_dependencies]
 argon = { name = "pesde/argon", version = "^2.0.25" }
+
+[patches]
+"pesde/scripts_core" = { "0.0.3 lune" = "patches/pesde+scripts_core-0.0.3+lune.patch" }

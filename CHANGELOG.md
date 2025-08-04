@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixes
+
+- Implement patch for sync_config generator for argon
+
 ## [0.0.4] - 2025-08-04
 
 ### Fixes
