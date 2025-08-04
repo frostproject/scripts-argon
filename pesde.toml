@@ -1,6 +1,6 @@
 name = "frostproject/scripts_argon"
 description = "Scripts for Argon-based Roblox projects."
-version = "0.0.4"
+version = "0.0.5"
 authors = [
     "iceeburr <iceeburr@gmail.com> (https://iceeburr.dev)",
     "daimond113 <contact@daimond113.com> (https://www.daimond113.com/)",

@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.5] - 2025-08-04
+
 ### Fixes
 
 - Implement patch for sync_config generator for argon
@@ -35,7 +37,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Project was created
 
-[unreleased]: https://github.com/frostproject/scripts-argon/compare/0.0.4...HEAD
+[unreleased]: https://github.com/frostproject/scripts-argon/compare/0.0.5...HEAD
+[0.0.5]: https://github.com/frostproject/scripts-argon/compare/0.0.4...0.0.5
 [0.0.4]: https://github.com/frostproject/scripts-argon/compare/0.0.3...0.0.4
 [0.0.3]: https://github.com/frostproject/scripts-argon/compare/0.0.2...0.0.3
 [0.0.2]: https://github.com/frostproject/scripts-argon/compare/0.0.1...0.0.2
